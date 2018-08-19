@@ -6,7 +6,7 @@ RUN pip3 uninstall -y python_openzwave
 RUN pip3 install --upgrade cython==0.24.1
 
 # install new (dev) version of python_openzwave
-RUN pip3 install --no-cache-dir 'python_openzwave==0.4.9' --install-option="--flavor=ozwdev"`
+RUN pip3 install --no-cache-dir 'python_openzwave==0.4.9' --install-option="--flavor=ozwdev"
 
 # NO LONGER NEEDED AS OF 0.76.0
 #
