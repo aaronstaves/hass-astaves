@@ -1,4 +1,4 @@
-FROM homeassistant/home-assistant:0.78.3
+FROM homeassistant/home-assistant:0.79.1
 
 # remove existing python
 RUN pip3 uninstall -y python_openzwave
