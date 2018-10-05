@@ -1,6 +1,6 @@
 # hass-astaves
 
-The **0.79.3** home-assistant image built with the dev version of **python_openzwave 0.4.9**.  This was done specifically to get my GoControl/Linear GD00Z-4 working with home-assistant.
+The **0.79.3** home-assistant image built with the dev version of **python_openzwave 0.4.10**.  This was done specifically to get my GoControl/Linear GD00Z-4 working with home-assistant.
 
 ## Image
 Pre-built image can be found on [hub.docker.com](https://hub.docker.com/r/astaves/home-assistant/)
@@ -12,7 +12,7 @@ docker run \
   -v /etc/localtime:/etc/localtime:ro \
   -v /data/hass_config:/config \
   --device /dev/zwave:/dev/zwave \
-  astaves/home-assistant:0.77.2
+  astaves/home-assistant:0.79.3
 ```
 
 ## Caveats
